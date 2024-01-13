@@ -19,10 +19,9 @@ training:
   num_epochs: 4
   gradient_accumulation_steps: 8
   warmup_steps: 300
-  fp16: True
+  fp16: False
 
 logging: 
   wandb: True
   project: "babylm-dev"
   output_dir: "./models/"
-
